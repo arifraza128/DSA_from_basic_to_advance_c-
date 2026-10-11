@@ -38,3 +38,31 @@ int main ()
   int n = 121;
   cout<<pallindromenumber(n)<<endl;
 }
+//max in given array
+#include<bits/stdc++.h>
+using namespace std;
+int  main(){
+    int arr[5]={30,39,10,40,49};
+    int maxi = arr[0];
+    for (int i =0;i<5;i++){
+        if(arr[i]<maxi){
+            maxi=arr[i];
+        }
+    }
+    cout<<maxi<<endl;
+    return 0;
+}
+//min in given array
+#include<bits/stdc++.h>
+using namespace std;
+int  main(){
+    int arr[5]={30,39,10,40,49};
+    int maxi = arr[0];
+    for (int i =0;i<5;i++){
+        if(arr[i]<maxi){
+            maxi=arr[i];
+        }
+    }
+    cout<<maxi<<endl;
+    return 0;
+}
