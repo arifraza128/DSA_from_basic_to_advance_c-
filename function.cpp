@@ -66,3 +66,23 @@ int  main(){
     cout<<maxi<<endl;
     return 0;
 }
+// second largest number in array
+#include<bits/stdc++.h>
+using namespace std;
+int  main(){
+    int arr[5]={10, 100, 30, 46, 20};
+    int largest = arr[0];
+    int secondlargest= INT_MIN;
+    for(int i=0;i<5;i++){
+    if(largest<arr[i]){
+        secondlargest=largest;
+        largest=arr[i];
+    }
+        else if(arr[i] != largest && arr[i] > secondlargest){
+        secondlargest=arr[i];
+        }
+    }
+    
+    cout<<secondlargest<<endl;
+    return 0;
+    }
