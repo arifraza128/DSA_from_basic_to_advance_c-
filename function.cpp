@@ -86,3 +86,21 @@ int  main(){
     cout<<secondlargest<<endl;
     return 0;
     }
+// reverse of an array
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+  int arr[5]={10,20,30,40,50};
+  int i=0;
+  int j=n-1;
+  while(i<j){
+    swap(arr[i],arr[j])
+    i++;
+    j--;
+  }
+for(int k =0;k<n;k++){
+  cout<<arr[k]<<",";
+}
+cout<<endl;
+return 0;
+}
