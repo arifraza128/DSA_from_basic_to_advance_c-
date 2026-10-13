@@ -72,3 +72,26 @@ cout<<"even: "<<even<<endl;
 cout<<"odd: "<<odd<<endl;
 return 0;
 }
+
+// find the number inside array
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int arr[5]={20,45,30,40,100};
+    int target = 45;
+    bool found = false;
+for(int i=0;i<5;i++){
+if(arr[i]==target){
+    found=true;
+    break;
+}
+}
+if(found){
+    cout<<"found"<<endl;
+}
+else{
+cout<<"not found"<<endl;
+}
+return 0;
+}
