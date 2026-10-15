@@ -151,3 +151,28 @@ int main() {
 
     return 0;
 }
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    int arr[100];
+
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    int pos, value;
+    cin >> pos >> value;
+
+    // Write your logic here
+
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+
+    return 0;
+}
+
